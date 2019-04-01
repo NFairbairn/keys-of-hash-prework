@@ -8,7 +8,7 @@ class Hash
     animals.each do |key,value|
       #key.each do |key_2, value_2|
       #binding.pry
-        if value == animals
+        if value == arguments
           key_arry << key
 
         end
