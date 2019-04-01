@@ -4,7 +4,7 @@ class Hash
   def keys_of(*arguments)
     # code goes here
     key_arry = []
-    animals.each do |key,value|
+    arguments.each do |key,value|
         if value == arguments
           key_arry << key
 
