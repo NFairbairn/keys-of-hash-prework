@@ -7,7 +7,7 @@ class Hash
     arguments.each do |key,value|
       values.each do |key_2, value_2|
         if arguments == value
-          key_arry << key
+          key_arry << key_2
         end
     end
     key_arry
