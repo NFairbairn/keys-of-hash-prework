@@ -3,7 +3,7 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     # code goes here
-    binding.pry
+    #binding.pry
     key_arry = []
     animals.each do |key,value|
       #key.each do |key_2, value_2|
