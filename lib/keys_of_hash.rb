@@ -9,6 +9,7 @@ class Hash
         if arguments == value
           key_arry << key_2
         end
+      end
     end
     key_arry
   end
