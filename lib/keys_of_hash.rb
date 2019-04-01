@@ -6,7 +6,7 @@ class Hash
     key_arry = []
     arguments.each do |key,value|
       values.each do |key_2, value_2|
-        if arguments == value
+        if arguments.include?(value_2)
           key_arry << key_2
         end
       end
